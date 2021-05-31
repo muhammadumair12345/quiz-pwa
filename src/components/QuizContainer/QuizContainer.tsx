@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext} from 'react';
 import { QuizContext } from '../../context/QuizContext';
 import QuizCategory from '../QuizCategory/QuizCategory';
 import QuizHeader from '../QuizHeader/QuizHeader';

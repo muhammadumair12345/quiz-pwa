@@ -61,7 +61,7 @@ const QuizQuestions = () => {
             }
             </>}
             {
-            nextCounter!=9?
+            nextCounter!==9?
             <>
             <button onClick={onChangeNextCounter} className='next-btn'>Next Question</button>
             <AnswerStatus answer={checkAnswer}>{checkAnswer}</AnswerStatus>

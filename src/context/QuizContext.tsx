@@ -47,7 +47,7 @@ export const QuizProvider:React.FC = ({children}:any) => {
         }
      }   
      fetchQuizAPI();
-    }, [startFlag])
+    }, [startFlag,categoryValue,difficulty])
 
     return (
         <QuizContext.Provider value={{startFlag,setStartFlag,
